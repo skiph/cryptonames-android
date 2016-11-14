@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maplerise.cryptonames.SearchActivity">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/attest_off"
+            android:orderInCategory="500"
+            android:title="@string/attest_off"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/attest_on"
+            android:orderInCategory="100"
+            android:title="@string/attest_on"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/attest_invalid"
+            android:orderInCategory="400"
+            android:title="@string/attest_invalid"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/attest_valid"
+            android:orderInCategory="200"
+            android:title="@string/attest_valid"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/attest_expired"
+            android:orderInCategory="300"
+            android:title="@string/attest_expired"
+            app:showAsAction="never" />
+
+    </group>group>
+</menu>

@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('cb_approov_1476182897147481225.aar'))

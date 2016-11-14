@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Crypto Names</string>
+
+    <string name="tag">Tag:</string>
+    <string name="update">Update</string>
+    <string name="names"></string>
+
+    <string-array name="tags">
+        <item>participants</item>
+        <item>bad-actors</item>
+        <item>3rd-parties</item>
+        <item>g-men</item>
+    </string-array>
+
+    <string name="attest_off">Never attest</string>
+    <string name="attest_on">Always Attest</string>
+    <string name="attest_valid">Always Valid</string>
+    <string name="attest_invalid">Always Invalid</string>
+    <string name="attest_expired">Always Expired</string>
+</resources>
